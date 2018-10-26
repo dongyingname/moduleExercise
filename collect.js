@@ -2,7 +2,6 @@
 
 //console.log("Your unsorted array is: " + uInput);
 var nums = [];
-
 function set(){
   return function(input) {
     nums.push(input);
@@ -11,5 +10,6 @@ function set(){
 }
 
 exports.numSet = set;
+// exports.get = get;
 
 
